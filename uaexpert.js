@@ -63,12 +63,12 @@
             while ((li = liNodes.iterateNext())) {
                 lis.push(li)
             }
-            // Let's color available inventory GREEN and BOLD and color zeroed inventory RED.
+            // Let's color available inventory GREEN and color zeroed inventory RED. Text size set to 150% so it's easier to see as you fast scroll.
             lis.forEach(v=>{
                 if(v.firstChild.textContent.endsWith('0')){
-                    v.setAttribute("style","color:red")
+                    v.setAttribute("style","color:red;font-size:150%")
                 }else{
-                    v.setAttribute("style","color:green;font-weight: bold")
+                    v.setAttribute("style","color:green;font-size:150%")
                 }
             })
 

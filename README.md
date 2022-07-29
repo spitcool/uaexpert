@@ -23,3 +23,6 @@ For more information on fare buckets, check out https://cwsi.net/united.htm
 ## What should I not do with this? 
 
 This tool is for individual use only. Please do not abuse the information that is readily provided by United in an automated fashion as that will almost certainly lead to United making it more difficult to use or removing the feature altogether. See https://liveandletsfly.com/the-real-reason-united-is-blocking-award-and-upgrade-space-from-expert-flyer/ for what this looks like when abused. 
+
+## Known Issues
+The tool does not differentiate between UA and non-UA flights. As an example, T9 will be highlighted green regardless of the airline operating the flight. As someone using this tool, you should be able to understand why this is important to pay attention to. 
